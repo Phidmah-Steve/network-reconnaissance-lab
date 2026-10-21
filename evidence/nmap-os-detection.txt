@@ -1,0 +1,49 @@
+# Nmap 7.991 scan initiated Wed Oct 21 09:24:41 2026 as: /usr/lib/nmap/nmap -O -oN nmap-os-detection.txt 192.168.56.20
+Nmap scan report for 192.168.56.20
+Host is up (0.0018s latency).
+Not shown: 977 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+512/tcp  open  exec
+513/tcp  open  login
+514/tcp  open  shell
+1099/tcp open  rmiregistry
+1524/tcp open  ingreslock
+2049/tcp open  nfs
+2121/tcp open  ccproxy-ftp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+5900/tcp open  vnc
+6000/tcp open  X11
+6667/tcp open  irc
+8009/tcp open  ajp13
+8180/tcp open  unknown
+MAC Address: 08:00:27:10:8A:41 (Oracle VirtualBox virtual NIC)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.991%E=4%D=10/21%OT=21%CT=1%CU=37908%PV=Y%DS=1%DC=D%G=Y%M=080027
+OS:%TM=6AD8BD28%P=x86_64-pc-linux-gnu)SEQ(SP=C9%GCD=1%ISR=CE%TI=Z%CI=Z%TS=7
+OS:)SEQ(SP=CA%GCD=1%ISR=CE%TI=Z%CI=Z%TS=7)SEQ(SP=CE%GCD=1%ISR=D1%TI=Z%CI=Z%
+OS:TS=7)SEQ(SP=CF%GCD=1%ISR=CF%TI=Z%CI=Z%TS=7)SEQ(SP=D1%GCD=1%ISR=D2%TI=Z%C
+OS:I=Z%II=I%TS=7)OPS(O1=M5B4ST11NW7%O2=M5B4ST11NW7%O3=M5B4NNT11NW7%O4=M5B4S
+OS:T11NW7%O5=M5B4ST11NW7%O6=M5B4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5
+OS:=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M5B4NNSNW7%CC=N%Q=)T1(R=Y%DF=Y%
+OS:T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%
+OS:O=M5B4ST11NW7%RD=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=B1C2A1A3%Q=
+OS:)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=B1C2A1A3%Q=)T6(R=Y%DF=Y%T=40%W
+OS:=0%S=A%A=Z%F=R%O=%RD=B1C2A1A3%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%R
+OS:D=B1C2A1A3%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%
+OS:RUD=G)IE(R=N)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 21 09:24:56 2026 -- 1 IP address (1 host up) scanned in 14.55 seconds
