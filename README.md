@@ -49,7 +49,7 @@ for authorized network reconnaissance.
 Command used:
 
 ```bash
-nmap -sV -oN nmap-service-scan.txt 192.168.56.20
+nmap -sV -oN evidence/nmap-service-scan.txt 192.168.56.20
 ```
 
 This scan checked the 1,000 most common TCP ports by default and attempted to identify services and their versions.
@@ -58,8 +58,8 @@ This scan checked the 1,000 most common TCP ports by default and attempted to id
 
 Command used:
 
-```bash
-sudo nmap -O -oN nmap-os-detection.txt 192.168.56.20
+```base
+sudo nmap -O -oN evidence/nmap-os-detection.txt 192.168.56.20
 ```
 
 Nmap attempted to fingerprint the target operating system. The result did not provide an exact OS match, so the precise operating-system identification remains inconclusive.
