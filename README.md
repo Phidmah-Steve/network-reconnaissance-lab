@@ -13,6 +13,15 @@ This project documents an authorized network reconnaissance exercise conducted i
 
 The project demonstrates foundational skills in network scanning, service enumeration, evidence collection, risk identification, and security reporting.
 
+
+## Lab Network Topology
+
+The diagram below illustrates the isolated VirtualBox lab used
+for authorized network reconnaissance.
+
+![Network topology showing Kali Linux and Metasploitable 2](docs/network-topology.png)
+
+
 ## Objectives
 
 - Identify an active target on an isolated lab network.
